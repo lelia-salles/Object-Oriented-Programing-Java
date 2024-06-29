@@ -15,8 +15,7 @@ OOP is a way of organizing code with ``blueprints`` creating reusable objects th
 4. **Inheritance**: Allows the creation of new objects that inherit all the features of a standard object but add some extra features (personalize)
 5. **Polimorphism**: objects cand be treated differently depending on their type. Example: a 'print' method can print a name differently than a product description.
 
-**Advantages**
-
-``Reusability``- Reuse objects and classes in different parts of the program, saving time and effort
-``Maintainability`` - Organized into logical units making code easier to understand and modify
-``Flexibility`` - adaptable to changing requirements
+||**Advantages**||
+|--|-----|----|
+|``Reusability``|``Maintainability``|``Flexibility``|
+|Reuse objects and classes in different parts of the program, saving time and effort|Organized into logical units making code easier to understand and modify|adaptable to changing requirements
