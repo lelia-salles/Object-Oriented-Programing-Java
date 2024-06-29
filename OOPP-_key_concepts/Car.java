@@ -1,45 +1,53 @@
 // Define a Car class
-/**
- * Classes are blueprints for objects. 
- * They define the structure (fields/attributes) 
- * and behavior (methods) that objects will have.
- */
 public class Car {
     // Fields or properties
-    /**
-     * Properties in Java are often referred to as fields 
-     * or instance variables. They represent the state or data of objects.
-     */
-
     private String make;
     private String model;
     private int year;
     private String color;
 
     // Constructor
-    /**
-     * It is a special method called when you create a new object (instance) of that class.
-     * It initializes the object´s state (its fields or properties)
-     * It has the same name as a class
-     * They don´t have any return type(void)
-     * public - constructor can be acessed from anywhere in theprogram
-     * Car is the name of class
-     * String make, etc. are parameters the constructor takes to 
-     * initialize the make, model, year and color of the new Car object
-     * Keyword this refers to the current object being created
-     * make: the field of the Car object and the parameter is passed in when creating the object
-     */
     public Car(String make, String model, int year, String color) {
         this.make = make;
         this.model = model;
         this.year = year;
         this.color = color;
+
+        // getters and setters
+        public String getMake() {
+            return make;
+        }
+
+        public void setMake(String make) {
+            this.make = make;
+    }
+   
+    public String getModel() {
+        return model;
     }
 
-    // Methods are actions or behaviours of an object
-    /**
-     * they are reusable
-     */
+    public void setModel(String model) {
+        this.model = model;
+    }
+    
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+    getters and setters 
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+
+    // Methods
     public void startEngine() {
         System.out.println("The " + make + " " + model + "'s engine has started.");
     }

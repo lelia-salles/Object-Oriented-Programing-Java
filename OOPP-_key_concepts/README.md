@@ -23,11 +23,8 @@ Object-Oriented Programming is a paradigm centered around objects rather than ac
 
 **Classes and Objects:** Programs are organized around objects and classes. An object is an instance of a class.\
 
-    Key Points
+    
 
-* Initialization: Constructors are essential for setting up the initial state of your objects.
-* No return value: They don't return anything.
-* Overloading: You can have multiple constructors in a class, each with different parameters (constructor overloading). This allows you to create objects with different initial configurations.\
 
 **Encapsulation:** Data and methods that operate on the data are bundled together into objects. This hides the internal state of objects from the outside world.\
 **Inheritance:** Classes can inherit properties and behaviors from other classes, promoting code reuse and hierarchical classification.\
