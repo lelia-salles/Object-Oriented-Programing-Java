@@ -15,22 +15,6 @@ Procedural Programming is a programming paradigm based on the concept of procedu
 
 While Java is ``primarily an OOP language``, you can still write procedural code using static methods in a class.
 
-```java
-
-public class ProceduralExample {
-    public static void main(String[] args) {
-        int a = 5;
-        int b = 10;
-        int result = add(a, b);
-        System.out.println("Sum: " + result);
-    }
-
-    public static int add(int x, int y) {
-        return x + y;
-    }
-}
-```
-
 ## Object-Oriented Programming (OOP)
 
 Object-Oriented Programming is a paradigm centered around objects rather than actions, and data rather than logic. It uses objects and classes to structure the code.
@@ -38,27 +22,17 @@ Object-Oriented Programming is a paradigm centered around objects rather than ac
 ### Characteristics
 
 **Classes and Objects:** Programs are organized around objects and classes. An object is an instance of a class.\
+
+    Key Points
+
+* Initialization: Constructors are essential for setting up the initial state of your objects.
+* No return value: They don't return anything.
+* Overloading: You can have multiple constructors in a class, each with different parameters (constructor overloading). This allows you to create objects with different initial configurations.\
+
 **Encapsulation:** Data and methods that operate on the data are bundled together into objects. This hides the internal state of objects from the outside world.\
 **Inheritance:** Classes can inherit properties and behaviors from other classes, promoting code reuse and hierarchical classification.\
 **Polymorphism:** Objects can be treated as instances of their parent class rather than their actual class. This allows one interface to be used for a general class of actions.\
 Abstraction: Hides complex implementation details and shows only the necessary features of an object.
-
-```java
-
-public class OOPExample {
-    public static void main(String[] args) {
-        Calculator calc = new Calculator();
-        int result = calc.add(5, 10);
-        System.out.println("Sum: " + result);
-    }
-}
-
-class Calculator {
-    public int add(int x, int y) {
-        return x + y;
-    }
-}
-```
 
 ## Comparision
 
