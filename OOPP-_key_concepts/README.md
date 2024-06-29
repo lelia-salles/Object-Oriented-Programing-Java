@@ -1,8 +1,13 @@
 # Introduction to OOP Concepts in JAVA
+
 Procedural Programming (PP) and Object-Oriented Programming (OOP) are two fundamental programming paradigms, each with its own approach to software design and implementation. Here's a comparison between the two, specifically in the context of Java:
+
 ## Procedural Programming (PP)
+
 Procedural Programming is a programming paradigm based on the concept of procedure calls, where statements are structured into procedures (also known as routines or functions).
-### Characteristics:
+
+### Characteristics
+
 **Structure:** The program is structured as a sequence of procedures or functions.\
 **Data and Functions:** Data and functions are separate. Functions operate on data passed to them as arguments.\
 **Modularity:** Programs are divided into small parts called functions. This promotes code reuse and better organization.\
@@ -25,11 +30,12 @@ public class ProceduralExample {
     }
 }
 ```
-	
+
 ## Object-Oriented Programming (OOP)
+
 Object-Oriented Programming is a paradigm centered around objects rather than actions, and data rather than logic. It uses objects and classes to structure the code.
 
-### Characteristics:
+### Characteristics
 
 **Classes and Objects:** Programs are organized around objects and classes. An object is an instance of a class.\
 **Encapsulation:** Data and methods that operate on the data are bundled together into objects. This hides the internal state of objects from the outside world.\
@@ -53,11 +59,12 @@ class Calculator {
     }
 }
 ```
+
 ## Comparision
+
 | |**Procedural Programming (PP)** | **Object-Oriented Programming (OOP)** |
 | --- | --- | --- |
 | **Design Approach** | Focuses on functions and the sequence of tasks | Focuses on objects and the interactions between them |
 | **Data Handling** | Data is passed from one function to another | Data is encapsulated within objects and accessed through methods. |
 | **Code Reusability** | Code reuse is achieved through functions | Code reuse is achieved through inheritance and polymorphism. |
 | **Maintenance** | Can become cumbersome for large systems due to the lack of structure around data and functions | Easier to maintain and extend due to its modular nature and encapsulation. |
-
