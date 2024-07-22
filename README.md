@@ -1,6 +1,6 @@
 # Introduction to OOP Concepts in JAVA
 
-## This repo is part of JAVA Course with IA and its content was built with the help of gemini/chatGPT
+
 
 ## Object-oriented programming (OOP)
 
